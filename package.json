@@ -1,0 +1,28 @@
+{
+  "name": "base-template",
+  "version": "1.0.0",
+  "description": "Base Template with webpack",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "Joshua Grierson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/encreddesign/base-template/issues"
+  },
+  "homepage": "https://github.com/encreddesign/base-template#readme",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0"
+  }
+}
